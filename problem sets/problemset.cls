@@ -11,6 +11,7 @@
 \newenvironment{solution}{  \  \\
    \noindent \textbf{Solution } \newline}{\qed \\}  
    
+\newenvironment{acknowledgements}{\noindent \textbf{Acknowledgements} \\}{}
 
 \newcommand{\name}{First Last}
 \newcommand{\pset}{0}
