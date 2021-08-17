@@ -2,11 +2,11 @@
 
 \LoadClass[12pt,a4paper]{article}
 
-\RequirePackage{amsmath,amssymb,amsthm,fancyhdr}
+\RequirePackage{amsmath,amssymb,amsthm,fancyhdr,enumerate}
 
 \newcounter{exercise}[section]
 \newenvironment{exercise}{\refstepcounter{exercise}
-   \noindent \textbf{Exercise~\theexercise. }}{\newline  }
+   \noindent \textbf{Exercise~\theexercise. }}{  }
    
 \newenvironment{solution}{  \  \\
    \noindent \textbf{Solution } \newline}{\qed \\}  
@@ -15,6 +15,8 @@
 
 \newcommand{\name}{First Last}
 \newcommand{\pset}{0}
+
+\newcommand{\term}[1]{\textit{#1}}
 
 \pagestyle{fancy}
 \fancyhf{}
