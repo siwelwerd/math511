@@ -6,7 +6,7 @@
 
 \newcounter{exercise}[section]
 \newenvironment{exercise}{\refstepcounter{exercise}
-   \noindent \textbf{Exercise~\theexercise. }}{  }
+   \noindent \textbf{Exercise~\theexercise. }}{ \vskip-\lastskip \vspace{0.2in} }
    
 \newenvironment{solution}{  \  \\
    \noindent \textbf{Solution } \newline}{\qed \\}  
